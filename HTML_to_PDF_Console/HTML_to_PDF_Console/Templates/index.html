@@ -1,0 +1,141 @@
+<html lang="en">
+<page size="A4"></page>
+<head>
+  <title>BoardingPass Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Style.css" media="all" />
+  </head>
+<body>
+<table class="table" style="width:100%" cellspacing="0" cellpadding="0">
+<tr id="fill">
+    <td style="width:70%">
+	<table class="table1" style="width:100%">
+	<thead>
+        <tr id="fill" style="height:100px">
+          <th id="logo"><img src="logo.png"/>AIRWAY</th>
+		  <th id="board">BOARDING PASS</th>
+        </tr>
+	</thead>
+      </table>
+      </td>
+    <td style="width:30%">
+	<table class="pass" style="width:100%">
+    <thead>
+    <tr style="height:100px">
+    <th id="right">BOARDING PASS</th>
+    </tr>
+    </thead> 
+    </table>
+	</td> 
+  </tr>
+  <tr>
+  <td>
+  <table class="table2" style="width=100%">
+  <tr>
+    <td>Passenger Name</td>
+    <td id="barcode" rowspan="6" colspan="2"><img src="Barcode.png" alt="HTML tutorial" style="width:100px;height:100px;"></td>
+  </tr>
+  <tr>
+  <th>{{passenger_details.name}}</th>
+  </tr>
+  <tr>
+  <td>From</td>
+  </tr>
+  <tr>
+  <th>{{passenger_details.from}}</th>
+  </tr>
+  <tr>
+  <td>To</td>
+  </tr>
+  <tr>
+  <th>{{passenger_details.to}}</th>
+  </tr>
+  </table>
+  
+  <table class="table6" style="width:101%">
+  <tr>
+    <th style="text align:left">Gate</th>
+    <th>Seat</th>
+	<th>Flight</th>
+    <th>Date</th>
+	<th>Time</th>
+  </tr>
+  <tr>
+    <td>{{flight.gate}}</td>
+    <td>{{flight.seat}}</td>
+	<td>{{flight.flight}}</td>
+    <td>{{flight.date}}</td>
+	<td>{{flight.time}}</td>
+  </tr>
+</table>
+
+  </td>
+  <td style="width:25%">
+  <table class="table3" style="width=100%">
+  <tr>
+  <td class="name">Passenger Name</td>  
+  </tr>
+  <tr>
+  <th>{{passenger_details.name}}</th>
+  </tr>
+  <tr>
+  <td class="from">From</td>
+  </tr>
+  <tr>
+  <th>{{passenger_details.from}}</th>
+  </tr>
+  <tr>
+  <td class="to">To</td>
+  </tr>
+  <tr>
+  <th>{{passenger_details.to}}</th>
+  </tr>
+  </table>
+  
+  <table class="table4">
+    <thead>
+      <tr>
+        <th>Gate</th>
+        <th>Seat</th>
+        <th>Flight</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="gate">{{flight.gate}}</td>
+        <td class="seat">{{flight.seat}}</td>
+        <td class="flight">{{flight.flight}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+   <table class="table5">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th class="ti">Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="date">{{flight.date}}</td>
+        <td class="time">{{flight.time}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  </td>
+  </tr>
+</table>
+
+<table class="table7" style="width:100%">
+  <tr>
+    <th></th>   
+  </tr>
+</table>
+</body>
+</html>

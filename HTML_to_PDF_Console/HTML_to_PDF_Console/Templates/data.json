@@ -1,0 +1,16 @@
+{
+"PassengerDetails":
+{
+"Name": "John Smith",
+"From": "Moscow",
+"To": "San Francisco"
+},
+"flight":
+{
+"Gate": "08",
+"Seat": "15B", 
+"Flight": "85SKL",
+"Date": "19 Sep 2022",
+"Time": "15.50"
+}
+}

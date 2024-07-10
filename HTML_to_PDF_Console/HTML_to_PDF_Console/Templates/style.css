@@ -1,0 +1,146 @@
+table tr#fill
+{
+background-color:blue; 
+color:white;
+}
+
+.table
+{
+  border-right: 5px solid blue;
+  border-left: 5px solid blue;
+}
+
+.table1{
+  border-right:3px dashed black;
+  border-color: grey;
+}
+.table3{
+  border-left:3px dashed black;
+  border-color: grey;
+  margin-left: -20px;
+}
+
+.table4{
+  border-left:3px dashed black;
+  border-color: grey;
+  margin-left: -20px;
+}
+
+.table6{
+  border-right:3px dashed black;
+  border-color: grey;
+}
+
+table th#logo
+{
+  padding-left: 40px;
+  padding-right: 100px;
+}
+
+table th#board
+{
+ width: 50%;
+ text-align:right;
+}
+
+table th#right
+{
+ color:white;
+ width: 100%;
+ text-align: left;
+}
+
+
+@font-face
+{
+font-family: "Inter";
+src: url("Inter-Regular.ttf") format("truetype");
+}
+
+table
+{
+font-family: "Inter";
+font-size: 18px;
+}
+
+.table1, .pass
+{
+font-family: "Inter";
+font-size: 25px;
+}
+
+.table2  th,td
+{
+  padding: 5px;
+  padding-left: 40px;
+}
+
+table td#barcode
+{
+ width: 20%;
+ padding-right: 50px;
+}
+
+
+.table3 th
+{
+ padding-left: 20px;
+}
+
+table td .name,
+table td .from,
+table td .to
+{
+ padding-left: 20px;
+}
+
+table td .gate,
+table td .seat,
+table td .flight
+{
+padding-left: 20px;
+}
+
+.table4  th
+{
+   padding-top: 40px;
+   padding-left: 20px;
+}
+
+table td .date,
+table td .time
+{
+padding-left: 0px;
+}
+
+.table5  th
+{
+   padding-top: 20px;
+}
+
+.table6
+{
+  margin-top: 60px;
+  margin-left:-10px;
+  background-color: lightblue;
+}
+
+.table6  th
+{
+  padding-left: 40px;
+}
+
+
+table .ti, 
+table td .time
+{
+padding-left: 20px;
+}
+
+.table7
+{
+  height: 80px;
+  margin-top: -30px;
+  background-color: blue;
+}
+
